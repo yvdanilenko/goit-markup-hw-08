@@ -1,0 +1,45 @@
+.services-section {
+  //  display: none;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  padding-bottom: 94px;
+
+  text-align: center;
+}
+
+.services-list {
+  display: flex;
+}
+.services-list__item {
+  display: block;
+  position: relative;
+  width: 370px;
+
+  & + .advantage-list__item {
+    margin-left: 30px;
+  }
+}
+
+.develop-fon {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.develop-fon__name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}

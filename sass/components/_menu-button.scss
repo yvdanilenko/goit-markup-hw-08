@@ -1,0 +1,64 @@
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-page__list {
+  font-size: 40px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-align: left;
+  color: #212121;
+}
+
+.nav-page__link {
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+  }
+}
+
+.contacts-list__link {
+  display: flex;
+
+  margin-top: auto;
+  font-size: 18px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-align: left;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.mob-social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
+
+  justify-content: space-evenly;
+}
+
+.mob-social__item {
+  color: var(--accent-color);
+
+  align-items: center;
+  font-size: 10px;
+  line-height: 1.222;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-align: left;
+
+  &:not(:last-child) {
+    border-right: 1px solid var(--accent-color);
+    padding-right: 5px;
+  }
+}

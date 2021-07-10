@@ -1,0 +1,30 @@
+.logo,
+.logo-footer {
+  font-family: var(--accent-font-family);
+  color: var(--main-logo-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  @media screen and(min-width: 768px) {
+    font-size: 26px;
+  }
+}
+.logo-footer {
+  color: white;
+}
+
+.header-page__logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and(min-width: 768px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+  }
+}
+
+.header-page__web {
+  color: var(--accent-color);
+}
