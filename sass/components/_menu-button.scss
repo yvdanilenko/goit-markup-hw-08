@@ -22,6 +22,9 @@
     color: var(--accent-color);
   }
 }
+.nav-page__link--current {
+  color: var(--accent-color);
+}
 
 .contacts-list__link {
   display: flex;
@@ -61,4 +64,9 @@
     border-right: 1px solid var(--accent-color);
     padding-right: 5px;
   }
+}
+
+.projects-wrapper__img {
+  height: auto;
+  object-fit: cover;
 }

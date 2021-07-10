@@ -27,18 +27,23 @@
           Studio
         </a>
 
-        <nav class="nav-page">
+        <button type="button" class="open-button">
+          <svg class="menu-open" width="40" height="40">
+            <use href="./img/img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <!-- <nav class="nav-page">
           <ul class="nav-page__list">
             <li class="nav-page__item">
-              <a href="./index.html" class="link nav-page__link link">
+              <a
+                href="./index.html"
+                class="link nav-page__link nav-page__link--current link"
+              >
                 Студия
               </a>
             </li>
             <li class="nav-page__item">
-              <a
-                href="./portfolio.html"
-                class="link nav-page__link nav-page__link--current link"
-              >
+              <a href="./portfolio.html" class="link nav-page__link link">
                 Портфолио
               </a>
             </li>
@@ -46,10 +51,10 @@
               <a href="" class="link nav-page__link link">Контакты</a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
 
         <!-- --------header contacts---------=------ -->
-        <ul class="contacts-list">
+        <!-- <ul class="contacts-list">
           <li class="contacts-list__item">
             <a
               href="mailto:info@devstudio.com"
@@ -69,7 +74,66 @@
               +38 096 111 11 11
             </a>
           </li>
-        </ul>
+        </ul> -->
+
+        <div data-modal class="mob-nav is-hidden">
+          <div class="modal">
+            <button data-modal-close class="menu-close">
+              <svg class="mob-nav__svg" width="40" height="40">
+                <use
+                  href="./img/img/icons.svg#icon-close-button"
+                  width="18.67"
+                  height="18.67"
+                ></use>
+              </svg>
+            </button>
+            <nav class="nav-page">
+              <ul class="nav-page__list">
+                <li class="nav-page__item">
+                  <a href="./index.html" class="link nav-page__link link">
+                    Студия
+                  </a>
+                </li>
+                <li class="nav-page__item">
+                  <a
+                    href="./portfolio.html"
+                    class="link nav-page__link nav-page__link--current link"
+                  >
+                    Портфолио
+                  </a>
+                </li>
+                <li class="nav-page__item">
+                  <a href="" class="link nav-page__link link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="mob-contacts">
+              <ul class="contacts-list">
+                <li class="contacts-list__item">
+                  <a href="tel:+380961111111" class="link contacts-list__link">
+                    +380961111111
+                  </a>
+                </li>
+                <li class="contacts-list__item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="link contacts-list__link link"
+                  >
+                    info@devstudio.com
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="mob-social list">
+                <li class="mob-social__item">Instagram</li>
+                <li class="mob-social__item">Twitter</li>
+                <li class="mob-social__item">Facebook</li>
+                <li class="mob-social__item">LinkedIn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
